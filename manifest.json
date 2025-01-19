@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Logi",
+    "version": "1.0",
+    "description": "A chrome extension that quickly calculates exponentials of base 2 and logarithms of base 2.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon.png"
+      }
+    }
+}  
