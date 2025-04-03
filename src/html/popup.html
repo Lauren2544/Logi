@@ -9,13 +9,17 @@
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to Logi</h1>
+    <div class="inline-calc">
+      <h1>Welcome to Logi</h1>
+    </div>
 
     <!-- Log Base 2 Calculator -->
     <div class="inline-calc">
-      <label for="logInput">Log<sub>2</sub>(</label>
-      <input id="logInput" placeholder="x" />
-      <span>) =&nbsp;</span>
+      <span>Log<sub>2</sub>(</span>
+      <div>
+        <span contenteditable="true" class="input" id="logInput"></span>
+      </div>
+      <span>)&nbsp=&nbsp;</span>
       <span id="logResult"></span>
     </div>
 
@@ -23,9 +27,11 @@
 
     <!-- Power of 2 Calculator -->
     <div class="inline-calc">
-      <label for="powerInput">2</label>
-      <input class="exp" id="powerInput" placeholder="n" />
-      <span> =&nbsp;</span>
+      <span>2</span>
+      <div>
+        <span contenteditable="true" class="exp input" id="powerInput"></span>
+      </div>
+      <span>&nbsp;=&nbsp;</span>
       <span id="powerResult"></span>
     </div>
   </div>

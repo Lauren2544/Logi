@@ -3,10 +3,10 @@ body {
   background: black;
   color:  #f2ead6;
   font-family: Arial, sans-serif;
-  width: 300px;
-  height: 205px;
-  display: flex;
-  flex-direction: column;
+  width: 240px;
+  height: 217px;
+  margin: 0;
+  padding: 0;
 }
 
 /* Container */
@@ -14,14 +14,12 @@ body {
   background-image: url("../../images/background.jpg"); 
   background-color: rgba(0, 0, 0, 0.4); 
   background-blend-mode: overlay;
-  background-size: cover;
+  background-size: cover; 
   background-position: center;
-  text-align: center;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  max-width: 300px;
-  max-height: 250px;
+  border: solid 3px black;
 }
 
 /* Heading */
@@ -30,44 +28,36 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* input number */
+.input {
+  border: solid 1px black;
+  background: transparent;
+  color: #f2ead6;
+  width: 40px;
+  padding: 2px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid gray;
+  margin: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div {
+  max-width: 200px;
+}
+
 /* Inline Calculation Row */
 .inline-calc {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 5px; */
   margin-bottom: 15px;
-}
-
-/* Input Styles */
-input {
-  background: transparent;
-  color: #f2ead6;
-  width: 25px;
-  padding: 2px;
-  text-align: center;
-  border: none;
-  border-radius: 5px;
-  font-size: 20px;
-}
-
-input::placeholder {
-  color: #f2ead6;
-  font-size: 14px;
-}
-
-input:focus {
-  outline: none;
-  border: 1px solid gray;
-  margin: 1px;
-}
-
-input:hover {
-  outline: none;
-  border: 1px solid gray;
-  margin: 1px;
-}
+} 
 
 /* Result Text */
 span {

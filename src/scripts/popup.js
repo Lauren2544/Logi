@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Log Base 2 Calculation
   logInput.addEventListener("input", () => {
-    const value = parseFloat(logInput.value);
+    const value = parseFloat(logInput.textContent);
     if (value > 0) {
       result = Math.log2(value);
       if (result % 1 !== 0){
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Power of 2 Calculation
   powerInput.addEventListener("input", () => {
-    const value = parseInt(powerInput.value);
+    const value = parseInt(powerInput.textContent);
     if (!isNaN(value)) {
       powerResult.textContent = Math.pow(2, value);
     } else {
