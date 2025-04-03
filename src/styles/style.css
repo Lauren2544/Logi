@@ -17,9 +17,10 @@ body {
   background-size: cover; 
   background-position: center;
   padding: 20px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border: solid 3px black;
+  border-bottom: solid 5px black;
 }
 
 /* Heading */
